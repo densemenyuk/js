@@ -128,10 +128,32 @@ let str = "word";
 //   console.log(i);
 // };
 
-
 // let arr = [4, 6, 12, 7, 0, -4, 25, '124dfg', 2, true, 21, false, Math.PI];
 
 // for(let i = 0; i < arr.length; i++){
 //     arr[i] *= 2;
 //     console.log('Элемент: ' + (i + 1) + ': ' + arr[i]);
 // };
+
+// alert('Осторожно!');
+
+// let data = confirm("Идем дальше?");
+// if (data) {
+// alert('Хорош!')
+// } else {
+//     alert('Мда...')
+// };
+
+// let age = prompt("Сколько вам лет?");
+// console.log(age);
+
+
+let person = null;
+
+if(confirm('Уверены?')) {
+    person = prompt('Введите ваше имя: ')
+    alert('Привет, ' + person)
+} else {
+    alert('Нет так нет')
+};
+
