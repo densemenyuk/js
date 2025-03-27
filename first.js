@@ -148,12 +148,68 @@ let str = "word";
 // console.log(age);
 
 
-let person = null;
+// let person = null;
 
-if(confirm('Уверены?')) {
-    person = prompt('Введите ваше имя: ')
-    alert('Привет, ' + person)
-} else {
-    alert('Нет так нет')
+// if(confirm('Уверены?')) {
+//     person = prompt('Введите ваше имя: ')
+//     alert('Привет, ' + person)
+// } else {
+//     alert('Нет так нет')
+// };
+
+
+// let number = 10;
+
+// console.error(number);
+
+
+// Функции_________________________________________________________________
+
+//function x(параметр) {}
+// Параметры = переменные
+
+// Глобальная переменная - записана вне функции и она видна всем, локальная переменная записана внутри функции и она может работать только внутри функции 
+
+function info(word) {
+    console.log(word + '!')
+}
+
+
+function summ(a, b) {
+    let result = a + b
+    info(result)    
 };
+
+// summ(1, 124);
+let array = [21, 235, -124, Math.PI, 235, 64, 12, 0.5, 67]
+
+function summ(arr) {
+
+    let  a = 0;
+
+    for(i = 0; i < arr.length; i++) 
+        a += arr[i];
+
+// return записывает в переменную, а ее потом можно вывести с помощью другой переменной
+    return a
+// console.log(a);
+}
+
+// let array = [21, 235, -124, Math.PI, 235, 64, 12, 0.5, 67]
+
+
+let = res = summ(array);
+console.log('Результат ' + res);
+
+
+let num = 10; 
+
+function bread() {
+    let num = 20;
+    console.log(num);
+}
+
+bread();
+
+console.log(num);
 
