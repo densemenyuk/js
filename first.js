@@ -213,3 +213,11 @@ bread();
 
 console.log(num);
 
+
+// События и обработчик событий______________________________________________________________
+
+function onClickButton() {
+    alert('Yo')
+}
+
+onClickButton();
