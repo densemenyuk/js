@@ -216,8 +216,18 @@ console.log(num);
 
 // События и обработчик событий______________________________________________________________
 
-function onClickButton() {
-    alert('Yo')
+let counter = 0;
+
+function onClickButton(element) {
+    counter++;
+    element.innerHTML = counter;
+    element.style.background='red';
+    element.style.color='white';
 }
 
-onClickButton();
+
+function onInput(el) {
+    if(el.value == 'Hello')
+        alert('VualeykumAssalam');
+    console.log(el.value);
+}
