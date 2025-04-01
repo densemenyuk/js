@@ -216,7 +216,7 @@ console.log(num);
 
 // События и обработчик событий______________________________________________________________
 
-let counter = 0;
+// let counter = 0;
 
 function onClickButton(element) {
     counter++;
@@ -231,3 +231,38 @@ function onInput(el) {
         alert('VualeykumAssalam');
     console.log(el.value);
 }
+
+
+
+
+// Таймеры и интервалы_________________________________________________
+
+
+// let id = setInterval(my_func, 1000);
+
+// let counter = 0;
+
+// function my_func(){
+//     counter++
+//     console.log('Counter: ' + counter);
+//     if(counter == 5) {
+//         clearInterval(id);
+//         console.log('Расчет окончен!');
+//     }
+// }
+
+
+// setInterval(function() {
+//     counter++
+//     console.log('Прошло секунд: ' + counter);
+// }, 1000);
+
+
+
+// let time = setInterval(my_func, 10000);
+
+// function my_func () {
+//     if(time % 2 == 0){
+//         console.log('делится на 2');
+//     }
+// };
