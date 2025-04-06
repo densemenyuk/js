@@ -266,3 +266,68 @@ function onInput(el) {
 //         console.log('делится на 2');
 //     }
 // };
+
+
+//  Создание объектов. Встроенные функции_____________________________________________
+
+
+
+
+//  #14 – Создание объектов. Встроенные функции_________________________________________
+
+
+// let date = new Date();
+
+// console.log(date.getFullYear());
+// console.log(date.getMonth() + 1);
+// console.log(date.getDate());
+// console.log(date.getHours());
+// console.log(date.getMinutes());
+// console.log(date.getSeconds());
+// date.setHours(23);
+// date.setMinutes(23);
+// console.log('Время: ' + date.getHours() + ':' + date.getMinutes());
+
+
+// let arr = [2,5,6,234,6,456,2345,235,74,5,74];
+
+// console.log(arr.length);
+// console.log(arr.join('| '));
+// console.log(arr.sort());
+// console.log(arr.reverse(). join(' | '));
+
+// let line = (arr.reverse(). join(', '));
+
+// console.log(line.split(','));
+
+
+class Person {
+    constructor(name, age, happiness) {
+        this.name = name;
+        this.age = age;
+        this.happiness = happiness;
+    };
+
+    info() {
+        console.log('Имя: ' + this.name + ', ' + 'Возраст: ' + this.age);
+    };
+};
+
+
+let alex = new Person('Alexander', 24, false);
+let bob = new Person('Bob', 54, true);
+
+console.log(bob.name + ', ' + bob.age + ', ' + bob.happiness);
+console.log(alex.name + ', ' + alex.age + ', ' + alex.happiness);
+
+alex.info();
+bob.info();
+
+
+
+
+
+
+
+
+
