@@ -1,36 +1,3 @@
-//https://developer.mozilla.org/ru/docs/Web/JavaScript
-
-// 1. JavaScript для начинающих. Введение — подключение к странице, вывод в консоль, комментарии в коде.
-/* */
-
-/*console.log('Hello')
-console.log('555')
-console.log('123')*/
-
-// 2. Переменные в JavaScript (var, let, const), строгий режим (use strict). Как называть переменные?
-
-// Переопределение переменных
-
-/* let message = 'Привет, у тебя новое собщение!'
-console.log(message)
-
-message = 'Нет новых сообщение'
-console.log(message)
-
-
-const name = 'Boris'
-
-const admin = name
-
-console.log(admin)*/
-
-// 'use strict' // Строгий режим
-
-// Переменные обозначают как правило в CamelCase
-// firstName, secondName
-// Для const может быть screaming snake case (Иногда)
-// const BASE_URL = '#
-
 // 3. Типы данных в JavaScript. Проверка типов (typeof), преобразование типов. Интерполяция строк.
 
 // Есть 8 типов данных
@@ -87,34 +54,30 @@ example = `
 
 //явное и неявное преобразование данных
 
-let num = 100;
-let str = "222";
+// let num = 100;
+// let str = "222";
 
-let res = num + str;
-console.log(res);
+// let res = num + str;
+// console.log(res);
 
-const age = 11;
+// const age = 11;
 
-console.log(typeof age);
-console.log(typeof String(age));
+// console.log(typeof age);
+// console.log(typeof String(age));
 
-const str1 = '1000'
+// const str1 = '1000'
 
-const number = Number(str)
+// const number = Number(str)
 
-console.log(typeof str)
+// console.log(typeof str)
 
 
 // Преобразуются в false
 
-console.log(Boolean(0))
-console.log(Boolean(NaN))
-console.log(Boolean(''))
-console.log(Boolean(null))
-console.log(Boolean(undefined))
+// console.log(Boolean(0))
+// console.log(Boolean(NaN))
+// console.log(Boolean(''))
+// console.log(Boolean(null))
+// console.log(Boolean(undefined))
 
 //Все остальное преобразутся в true
-
-
-
-
