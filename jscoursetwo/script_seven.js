@@ -57,4 +57,46 @@
 // logMessage('Третье сообщение', 1)
 
 
+// Важнейшая концепция функции 
+
+// function sum(a, b) {
+//   return a + b 
+//   console.log('йоу');
+//   console.log('ой');
+
+// }
+
+// console.log(sum(111, 222));
+
+// function getAgeType(age) {
+//     if (typeof age !== 'number') {
+//         return 'Возраст указан неверно!'
+//     }
+
+//     if (age < 1 || age > 125) {
+//         return 'Данные указаны неккоректно, такого возраста быть не может!'
+//     }
+
+//     if (age < 18) {
+//         return 'Несовершеннолетний пользователь'
+//     }
+
+//     return 'Взрослый'
+// }
+
+// console.log(getAgeType('Привет'));
+// console.log(getAgeType(150));
+// console.log(getAgeType(15));
+// console.log(getAgeType(25));
+
+
+function getSecretMessage(name) {
+    if (!name) return 'Данные указаны неверно'
+    return `О, я тебя знаю, привет, ${name}`
+}
+
+console.log(getSecretMessage('Boris'));
+
+
+
 
