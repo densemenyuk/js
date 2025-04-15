@@ -90,12 +90,12 @@
 // console.log(getAgeType(25));
 
 
-function getSecretMessage(name) {
-    if (!name) return 'Данные указаны неверно'
-    return `О, я тебя знаю, привет, ${name}`
-}
+// function getSecretMessage(name) {
+//     if (!name) return 'Данные указаны неверно'
+//     return `О, я тебя знаю, привет, ${name}`
+// }
 
-console.log(getSecretMessage('Boris'));
+// console.log(getSecretMessage('Boris'));
 
 
 
