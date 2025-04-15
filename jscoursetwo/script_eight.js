@@ -63,17 +63,17 @@
 // logMessage(fn1, fn2)
 
 
-const validate = (hasAcces) => {
-    if(hasAcces) {
-        return () => console.log('Доступ разрешен')
-    } else {
-        return () => console.log('Доступ запрещен')
-    }
-}
+// const validate = (hasAcces) => {
+//     if(hasAcces) {
+//         return () => console.log('Доступ разрешен')
+//     } else {
+//         return () => console.log('Доступ запрещен')
+//     }
+// }
 
-const logMessage = validate(false)
+// const logMessage = validate(false)
 
-logMessage()
+// logMessage()
 
 
 // Правильное название функций, как правило первое слово - глагол, а второе - уточняющее существительное
