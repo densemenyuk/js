@@ -246,6 +246,8 @@ console.log('Город пользователя:' ,userCity);
 
 // Остаточные или REST парамметры
 
+/*
+
 const logUser = (user) => {
   const { name, age, city, ...otherInfo } = user;
 
@@ -266,3 +268,4 @@ logUser({
   hasDog: true,
   height: 180
 });
+*/
