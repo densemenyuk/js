@@ -69,6 +69,9 @@ const num = 100
 console.log(`
     Число ${num} в двоичной системе исчесления:`, num.toString(2))
  */
+
+/**
+ *     
 // Объект Math
 console.log('Случайное число:', Math.random())
 //Абсолютное число или модуль числа
@@ -103,3 +106,4 @@ console.log('Минимальное число равно: ', Math.min(1, 2, 3, 
 const numberAsStirng = '100.235px'
 console.log(parseInt(numberAsStirng)) // Для целых числе
 console.log(parseFloat(numberAsStirng)) //Для дробных чисел
+ */
