@@ -113,7 +113,8 @@ console.log(str.split(','))
 
 // Задачка на методы строк
 
-const value = prompt('Введите ваше имя: ')
+/**
+ * const value = prompt('Введите ваше имя: ')
 
 const clearValue = value.trim().toLocaleLowerCase()
 
@@ -124,5 +125,6 @@ if(clearValue.length === 0) {
 if(clearValue.includes('админ')) {
     alert('Ошибка! Такое имя использовать нельзя!')
 }
+ */
 
 
